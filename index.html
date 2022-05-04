@@ -81,6 +81,287 @@
              </div>
         </div>
  </section>
+ <section id="portfolio">
+    <div class='wrapper wrapper-portfolio'>
+        <h2>Portfolio</h2>
+        <h3>Newest to Oldest</h3>
+        <div id="badge-container">
+          <button class="badge active" onclick="filterSelection('all')">
+            Show all
+          </button>
+          <button class="badge" onclick="filterSelection('client')">Client</button>
+          <button class="badge" onclick="filterSelection('personal')">Personal</button>
+          <button class="badge" onclick="filterSelection('redux')">Redux</button>
+          <button class="badge" onclick="filterSelection('react')">React</button>
+          <button class="badge" onclick="filterSelection('mongodb')">MongoDB</button>
+          <button class="badge" onclick="filterSelection('express')">Express</button>
+          <button class="badge" onclick="filterSelection('node')">Node.js</button>
+          <button class="badge" onclick="filterSelection('wordpress')">Wordpress</button>
+          <button class="badge" onclick="filterSelection('upcoming')">Upcoming</button>
+        </div>
+    
+
+        <div class="cards-wrapper">
+          <div class="card personal redux react mongodb express node">
+            <div class="card-title">Not Another To Do List</div>
+            <div class='card-img'>
+              <img src='images/not-another-to-do-list-summary.jpg'>
+            </div>
+            <div class="card-icons">
+              <a
+                href="https://github.com/MichaelGomes/Not-Another-To-Do-List"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+                href="https://not-another-to-do-list.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class='card-content'>
+              <p>
+                Now I know what you are thinking. Another To Do List I have seen so many of these.
+                This is a much more complex version than what you are used to. There is 12 lists per profile, 
+                user authentication as well as email verification, Redux for the global state,
+                a search functionality, a filter and priority system as well as accessibility features. I actually use this website nearly every day
+                and have intentions to improve and add more functionality to it. Some features I have planned include
+                the ability to have items repeat by a custom amount of time, multi select for deleting and moving items 
+                between lists. As well as a sorting system.
+              </p>
+            </div>
+
+          </div>
+          <div class="card personal">
+            <div class='card-title'>Portfolio Version 2</div>
+            <div class="card-img">
+              <img
+                src="images/portfolio-v2-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a
+                href="https://github.com/MichaelGomes/Portfolio-V2"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button" >
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+                href="https://michaelgomes.github.io/Portfolio-V2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button" >
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class="card-content">
+              <p>
+                This version is an improvement on the first in UI, functionality and accessibility.
+                I feel as though the landing typewriter animation is a better choice than the background photo.
+                I added a filter function for the portfolio section in pure javascript.
+                I also like the addition of the upcoming section to show what I plan to work on next.
+              </p>
+            </div>
+          </div>
+          
+
+          <div class="card personal react">
+            <div class="card-title">
+              Password Generator & Cipher
+            </div>
+            <div class="card-img">
+              <img
+                src="images/password-cipher-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a
+                href="https://github.com/MichaelGomes/Password-Generator-And-Cipher"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+                href="https://password-generator-and-cipher.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class="card-content">
+              <p>
+                This project uses React with no backend. I created the color
+                scheme with color blindness in mind. This project was a bit
+                challenging but very fun to create. The vigenère cipher was the
+                most challenging. I used my whiteboard to write out a tabula
+                recta to create my own formula for the encryption method. This
+                project is also where I got a very good grasp of screen readers
+                and using the aria attributes. Going forward I will add aria
+                throughout the project instead of waiting until the end. This
+                will also help design decisions and will prevent me from needing
+                to adjust the appearance later on.
+              </p>
+            </div>
+          </div>
+
+          <div class="card client wordpress">
+            <div class="card-title">Medical Bulk Masks</div>
+            <div class="card-img">
+              <img
+                src="images/medical-bulk-masks-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a href="https://www.github.com"
+                ><button class="disabled" type="button" name="button" disabled>
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+                href="https://www.medicalbulkmasks.ca"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+              <div class="card-content">
+                <p>
+                  My first client website. The client sells 3-ply surgical masks
+                  and wanted an online presence to find more customers.
+                  I created this website to the clients design specifications.
+                  Unfortunately the client lost his supplier 2 days after I
+                  created the website and has not found a new supplier since. I
+                  used Wordpress for the site. I added SEO and automatic back-ups.
+                  Overall it was a good first experience with a client. Even
+                  though nothing was ever sold I still learned a lot about
+                  wordpress, e-commerce and dealing with client needs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card personal">
+            <div class="card-title">Portfolio Version 1</div>
+            <div class="card-img">
+              <img
+                src="images/portfolio-v1-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a
+                href="https://github.com/MichaelGomes/Portfolio-V1"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+                href="https://michaelgomes.github.io/Portfolio-V1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class="card-content">
+              <p>
+                The first version of my portfolio website. I wanted to keep it
+                simple just HTML, CSS & Javascript. I did not want to
+                overcomplicate things considering I only had a couple of
+                projects to add. I wanted to spend more time working on other
+                projects. I once again used flexbox & I also added CSS grid.
+              </p>
+            </div>
+          </div>
+
+          <div class="card personal node express">
+            <div class="card-title">Fight Fitness</div>
+            <div class="card-img">
+              <img
+                src="images/fight-fitness-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a
+                href="https://github.com/MichaelGomes/Fight-Fitness"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+                href="https://fight-fitness.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class="card-content">
+              <p>
+                This was my first attempt at creating a website. It is for a
+                fictional MMA App. I used Node.js & Express for the backend to
+                communicate with the MailChimpAPI to signup for the newsletter.
+                This project gave me a much better understanding of flexbox and
+                it was also the first time I used any animations. The color
+                scheme was decided with accessibility in mind, there needed to
+                be a certain amount of contrast. I used AdobeXD to first create
+                a mockup of the website then I used HTML, CSS & Javascript. You
+                might notice that the image file sizes are large. This was
+                before I knew how to compress images.
+              </p>
+            </div>
+          </div>
+
+          <div class="card upcoming">
+            <div class='card-title'>Spotify Clone</div>
+            <div class="card-img">
+              <img
+                src="images/spotify-clone-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a
+                
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="disabled" type="button" name="button" disabled>
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+             
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="disabled" type="button" name="button" disabled>
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class="card-content">
+              <p>
+                I am currently working on recreating Spotify from scratch. I won't be using the Spotify API.
+                I will be replicating the UI as well as the functionality. It will be a music player using 
+                copyright free music and have the same capabilities as Spotify including, creating an account as well as your own playlists.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+</section>
   </body>
   <footer>
     <script src="index.js" async defer></script>
