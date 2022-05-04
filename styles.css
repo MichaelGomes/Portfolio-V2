@@ -221,3 +221,42 @@ h1::after {
     font-size: 2.5rem;
   }
 }
+
+/* About Me Section */
+#aboutme {
+  background-color: rgb(250, 241, 201);
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.wrapper-aboutme {
+  text-align: center;
+}
+
+.aboutme-header {
+  background-color: #ac0000;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.wrapper-aboutme h3,
+.wrapper-aboutme h4 {
+  font-size: 25px;
+}
+
+.wrapper-aboutme li {
+  font-size: 20px;
+}
+.tech-list {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #ac0000;
+}
