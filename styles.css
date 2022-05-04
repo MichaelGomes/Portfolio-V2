@@ -1,0 +1,117 @@
+:root {
+  --bg-color: rgb(245, 243, 234);
+}
+
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.logo {
+  font-family: "Satisfy", cursive;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.wrapper-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.fa-file-download {
+  padding-left: 5px;
+}
+
+header img {
+  width: 48px;
+}
+
+header ul {
+  display: flex;
+  margin: 0px;
+}
+
+header li {
+  list-style: none;
+  padding: 1.5em;
+  font-size: 14px;
+  animation: fade-in-left 1s 1 0s linear;
+}
+
+header li:hover {
+  background-color: #ac0000;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+/* Header Animations */
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Header Responsiveness */
+
+@media only screen and (min-width: 636px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  header ul {
+    display: none;
+  }
+  .menu {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    padding: 0.5em;
+    margin: 10px;
+  }
+}
+
+/* Hamburger Menu Toggle */
+.menu-click .wrapper-nav {
+  height: 300px;
+  transition: height 2s;
+}
+
+.menu-click ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  margin-right: auto;
+}
