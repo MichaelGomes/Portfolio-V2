@@ -97,11 +97,46 @@
           <button class="badge" onclick="filterSelection('express')">Express</button>
           <button class="badge" onclick="filterSelection('node')">Node.js</button>
           <button class="badge" onclick="filterSelection('wordpress')">Wordpress</button>
-          <button class="badge" onclick="filterSelection('upcoming')">Upcoming</button>
+          <!-- <button class="badge" onclick="filterSelection('upcoming')">Upcoming</button> -->
         </div>
     
 
         <div class="cards-wrapper">
+          <div class="card personal redux react mongodb express node">
+            <div class='card-title'>Dotify</div>
+            <div class="card-img">
+              <img
+                src="images/dotify-summary.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-icons">
+              <a
+                href="https://github.com/MichaelGomes/Dotify"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  Code <span class="fab fa-github"></span></button
+              ></a>
+              <a
+             
+                href="https://dotify-sounds.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="icon" type="button" name="button">
+                  View <span class="fas fa-eye"></span></button
+              ></a>
+            </div>
+            <div class="card-content">
+              <p>
+                This website is a music player inspired by the UI of Spotify. I used the MERN Stack as well as Redux for the Global State.
+                Dotify is a fully functional Music Player using Royalty Free Music from https://pixabay.com/music/. There is 
+                Account Verification (Using Nodemailer) & User Authentication. BcryptJS is used for the password Hashing. You can create 
+                your own playlists, adjust the volume & play the music from any page. I used Multer to store the audio files in the 
+                database and gridfs-stream to stream the music to the browser.
+              </p>
+            </div>
+          </div>
           <div class="card personal redux react mongodb express node">
             <div class="card-title">Not Another To Do List</div>
             <div class='card-img'>
@@ -324,40 +359,7 @@
             </div>
           </div>
 
-          <div class="card upcoming">
-            <div class='card-title'>Spotify Clone</div>
-            <div class="card-img">
-              <img
-                src="images/spotify-clone-summary.jpg"
-                alt=""
-              />
-            </div>
-            <div class="card-icons">
-              <a
-                
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                ><button class="disabled" type="button" name="button" disabled>
-                  Code <span class="fab fa-github"></span></button
-              ></a>
-              <a
-             
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                ><button class="disabled" type="button" name="button" disabled>
-                  View <span class="fas fa-eye"></span></button
-              ></a>
-            </div>
-            <div class="card-content">
-              <p>
-                I am currently working on recreating Spotify from scratch. I won't be using the Spotify API.
-                I will be replicating the UI as well as the functionality. It will be a music player using 
-                copyright free music and have the same capabilities as Spotify including, creating an account as well as your own playlists.
-              </p>
-            </div>
-          </div>
+          
         </div>
         
     </div>
