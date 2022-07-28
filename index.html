@@ -44,7 +44,7 @@
               <li><a href="#aboutme">ABOUT ME</a></li>
               <li><a href="#portfolio">PORTFOLIO</a></li>
               <li>
-                <a href="files/Web Developer Resume.pdf" download aria-label="download resume">RÉSUMÉ<span><i class="fas fa-file-download"></i></span
+                <a href="files/Michael Gomes Resume.pdf" download aria-label="download resume">RÉSUMÉ<span><i class="fas fa-file-download"></i></span
                 ></a>
               </li>
           </nav>
@@ -87,9 +87,10 @@
         <h2>Portfolio</h2>
         <h3>Newest to Oldest</h3>
         <div id="badge-container">
-          <button class="badge active" onclick="filterSelection('all')">
+          <button class="badge" onclick="filterSelection('all')">
             Show All
           </button>
+          <button class="badge active" onclick="filterSelection('featured')">Featured</button>
           <button class="badge" onclick="filterSelection('client')">Client</button>
           <button class="badge" onclick="filterSelection('personal')">Personal</button>
           <button class="badge" onclick="filterSelection('redux')">Redux</button>
@@ -103,7 +104,7 @@
     
 
         <div class="cards-wrapper">
-          <div class="card personal redux react mongodb express node">
+          <div class="card personal redux react mongodb express node featured">
             <div class='card-title'>Dotify</div>
             <div class="card-img">
               <img
@@ -142,7 +143,7 @@
             </div>
           </div>
 
-          <div class="card personal redux react mongodb express node">
+          <div class="card personal redux react mongodb express node featured">
             <div class="card-title">Not Another To Do List</div>
             <div class='card-img'>
               <img src='images/not-another-to-do-list-summary.jpg'>
@@ -180,7 +181,7 @@
 
           </div>
 
-          <div class="card personal react">
+          <div class="card personal react featured">
             <div class="card-title">
               Password Generator & Cipher
             </div>

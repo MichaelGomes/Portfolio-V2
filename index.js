@@ -6,7 +6,7 @@ hamburger.addEventListener("click", function () {
   document.querySelector("ul").classList.toggle("menu-click");
 });
 
-filterSelection("all");
+filterSelection("featured");
 function filterSelection(filter) {
   var cards;
   cards = document.getElementsByClassName("card");
